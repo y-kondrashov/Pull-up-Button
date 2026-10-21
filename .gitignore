@@ -1,68 +1,39 @@
-# Prerequisites
-*.d
+# --- PlatformIO ---
+.pio/
+.piolibdeps/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
+# --- Arduino IDE / Arduino CLI ---
 build/
-Build/
-build-*/
+.build/
+*.hex
+*.bin
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# --- IDE та редактори (VS Code, CLion тощо) ---
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+.idea/
+*.suo
+*.ncb
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
+# --- Операційна система ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
 
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# --- Локальні налаштування та секрети ---
+credentials.h
+secrets.h
+*.local
