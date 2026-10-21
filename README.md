@@ -1,5 +1,6 @@
 # Pull-up-Button
 <img width="572" height="468" alt="image" src="https://github.com/user-attachments/assets/be978860-0ca6-4b5d-9b84-439040f46a4e" />
+
 Навчальний проєкт для ESP32-S3 на Arduino framework і PlatformIO. Він демонструє читання зовнішньої кнопки з внутрішнім підтягуванням `INPUT_PULLUP`, читання вбудованої BOOT-кнопки та керування двома світлодіодами залежно від натиснутої кнопки.
 
 ## Що робить проєкт
